@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: #f2f2f2;
+    position: fixed;
+    top: 0;
+}
+
+.header h1 {
+    text-align: center;
+    line-height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+/* ___________ START UTILITY___________ */
+.scroll_bar_progress {
+    height: 12px;
+    width: 100%;
+    background-color: #ddd;
+}
+
+#scroll_indicator {
+    height: 100%;
+    width: 0%;
+    background: rgb(1, 221, 38); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, rgb(1, 221, 38), rgb(121, 253, 143)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, rgb(1, 221, 38), rgb(121, 253, 143)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, rgb(1, 221, 38), rgb(121, 253, 143)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, rgb(1, 221, 38), rgb(121, 253, 143)); /* Standard syntax */
+}
+/* ___________ END UTILITY___________ */
+
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.content {
+    padding: 100px 50px;
+}
